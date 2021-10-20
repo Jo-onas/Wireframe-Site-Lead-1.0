@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+  nav {
+  	height: 80px;
+  	background-color: rgb(117, 152, 201);
+  	width: 100%;
+  	display: flex;
+  	justify-content: space-between;
+  }
+
+
+nav img {
+	margin-left: 10px;
+	height: 75px;
+	width: 75px;
+}
+
+nav .navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .navigation li {
+	text-decoration: none;
+}
+
+
+body {
+	background:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOe-PVhnf6GTmtsYtX5AtHMNQyg_rychaTlA&usqp=CAU);
+}
+
+
+.Paralax {
+	display: flex;
+	background: url(https://img.elo7.com.br/product/main/34AB5D7/papel-de-parede-adesivo-espaco-plantetas-desenhos-marinheiro.jpg);
+	height: 85vh;
+  align-items: center;
+  vertical-align: center;
+  width: 100%;
+
+
+}
+
+.Paralax h1 {
+	color:  white;
+	font-size: 100px;
+	padding-left: 35%;
+}
+
+.botao {
+	display: flex;
+	height: 200px;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.botao div {
+	border-radius: 40px;
+	display: flex;
+	height: 80px;
+	width: 300px;
+	background-color: white;
+	margin: 0 30px;
+	align-items: center;
+	font-size: 35px;
+	color: blue;
+	padding: 10px;
+}
+
+.botao div:hover {
+	background-color: rgb(83, 134, 168);
+}
+
+.imge img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-bottom: 20px;
+ }
+
+ .imge img:hover {
+ 	width: 900px;
+ }
+
+ .texto {
+ 	color: white;
+ 
+ }
+
+ .texto h1 {
+ 	font-size: 80px;
+
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+ }
+
+ .texto p {
+ 	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+ }
+
+ footer {
+ 	background-color: black;
+ 	height: 100px;
+ }
